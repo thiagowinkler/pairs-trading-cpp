@@ -16,11 +16,10 @@ a set of band values using brute force (not really elegant). A cointegration
 test is recommended to find the ideal stock pair.
 
 ### Implementation Details
-Pairs trading is a fairly simple (and wildly known) trading strategy, that
-doesn't really work in "the real world", but that is nice to learn because of
-the concepts you need to know to understand it. My implementation does not take
-transaction costs into account, and that is one of the reasons you may get
-positive returns while playing around with it.
+Pairs trading is a fairly simple (and wildly known) trading strategy, and that
+is nice to learn because of the concepts you need to know to understand it. My
+implementation does not take transaction costs into account, and that is one of
+the reasons you may get positive returns while playing around with it.
 
 The code for this project is also way more complicated than it could
 potentially be. The idea was to force me to use some design patterns in C++,
